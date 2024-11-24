@@ -1,0 +1,61 @@
+*{
+    box-sizing: content-box;
+}
+body{
+    margin:0 ;
+    padding:0 ;
+    background-color:#7d7d7d;
+}
+label{
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #9e3960;
+    font-size: 30px;
+}
+.container{
+    padding: 10rem;
+    margin: auto;
+    margin-top: 50px;
+    height: 250px;
+    width: 25rem;
+    border-radius: 25px;
+    box-shadow: 1px 1px 1px 3px burlywood; 
+} 
+
+ .cal {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 20px;
+   padding:10px;
+    
+ } 
+
+ .cal input{
+  padding: 0.75rem;
+  margin: 10px;
+  border: none;
+  width: 20rem;
+  border-radius: 0.2rem;
+ }
+
+
+button{
+width: 20.1rem;
+padding: 0.75rem;
+border-radius: 0.2rem;
+background-color:#9e3960 ;
+color:yellow;
+font-size: 16px;
+font-weight: bold;
+}
+
+
+ select{
+    display: block;
+    padding: 12px;
+    width: 20rem;
+    font-size: 16px;
+ }
+
