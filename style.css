@@ -59,3 +59,34 @@ font-weight: bold;
     font-size: 16px;
  }
 
+ @media screen and ( max-width:750px){
+
+    body{
+        box-sizing: border-box;
+        margin:0 ;
+        padding:0 ;
+      
+    }
+
+    label{
+    padding: 10px;
+    margin-left: 25px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color:#9e3960;
+    font-size: 30px;
+    font-style:italic;
+    
+}
+.container{
+    padding: 5rem;
+    margin: auto;
+    margin-top: 50px;
+    height: 250px;
+    width: 25rem;
+    border-radius: 25px;
+    box-shadow: 1px 1px 1px 3px #9e3960; 
+}  
+
+
+ }
